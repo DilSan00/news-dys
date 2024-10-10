@@ -8,5 +8,6 @@ const PaginationWrapper = ({ top, bottom, children, ...paginationProps }) => {
       {bottom && <Pagination {...paginationProps} />}
     </>
   );
-}
+};
+
 export default PaginationWrapper;
