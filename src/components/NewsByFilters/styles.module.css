@@ -1,0 +1,12 @@
+.section {
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+}
+
+
+
+/* Видео я Остановился на 18:05, Потому что мне просто тупо хочутся спать. Больше не смогу сдержаться !!! */
