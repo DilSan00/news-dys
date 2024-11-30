@@ -4,13 +4,14 @@ import "@/shared/index.css";
 import { ThemeProvider } from "@/app/providers/ThemeProvider";
 import { Provider } from "react-redux";
 import { store } from "./appStore";
-import BaseLayout from "./layouts/BaseLayout";
+import { RouterProvider } from "react-router-dom";
+import { appRouter } from "./appRouter";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>
       <Provider store={store}>
-        <BaseLayout />
+        <RouterProvider router={appRouter}/>
       </Provider>
     </ThemeProvider>
   </StrictMode>
